@@ -6,7 +6,7 @@ const Navbar = () => {
            <nav>
                <ul>
                    <li><Link to='/'>AboutUs</Link></li>
-                   <li><Link to='/contact'>ContactUs</Link></li>
+                   <li><Link to='/Contact'>ContactUs</Link></li>
                </ul>
            </nav>
        </BrowserRouter>
