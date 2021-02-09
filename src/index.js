@@ -2,15 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Routes from './Components/Routes';
-import Btn from './Components/Button/index';
-import Navbar from './Components/Navbar';
 
 ReactDOM.render(
   <div>
     <Routes />
-    <Btn label="AboutUs" isDisabled={true} type="warning"/>
-    <Btn label="ContactUs" isDisabled={true} type="danger"/>
-    <Navbar />
   </div>,
   document.getElementById('root')
 );

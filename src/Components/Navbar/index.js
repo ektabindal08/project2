@@ -1,15 +1,14 @@
 import React from 'react';
-import {BrowserRouter, Link} from "react-router-dom";
+import { Link} from "react-router-dom";
+import './index.css';
 const Navbar = () => {
     return (
-       <BrowserRouter>
            <nav>
                <ul>
                    <li><Link to='/'>AboutUs</Link></li>
                    <li><Link to='/Contact'>ContactUs</Link></li>
                </ul>
            </nav>
-       </BrowserRouter>
        );
 };
 
