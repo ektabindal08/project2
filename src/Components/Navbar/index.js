@@ -1,9 +1,8 @@
 import React from 'react';
-import {BrowserRouter, Link} from 'react-router-dom';
-
+import { Link} from "react-router-dom";
+import './index.css';
 const Navbar = () => {
     return (
-       <BrowserRouter>
            <nav>
                <ul>
                    <li><Link to="/About"> AboutUs </Link></li>
@@ -11,8 +10,6 @@ const Navbar = () => {
                </ul>
                
            </nav>
-       </BrowserRouter>
-       
        );
 };
 
