@@ -10,8 +10,8 @@ const Routes = () => {
         <BrowserRouter>
         <Navbar />
             <Switch>
-                <Route exact path='/' component={About} />
-                <Route exact path='/Contact' component={Contact} />
+                <Route exact path='/About' component={About} /> 
+                <Route exact path='/Contact' component={Contact} /> 
             </Switch>
         </BrowserRouter>
     );

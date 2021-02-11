@@ -5,12 +5,12 @@ const Navbar = () => {
     return (
            <nav>
                <ul>
-                   <li><Link to='/'>AboutUs</Link></li>
-                   <li><Link to='/Contact'>ContactUs</Link></li>
+                   <li><Link to="/About"> AboutUs </Link></li>
+                   <li><Link to="/Contact"> ContactUs </Link></li>
                </ul>
+               
            </nav>
        );
 };
-
 
 export default Navbar;
