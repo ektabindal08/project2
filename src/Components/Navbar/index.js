@@ -5,14 +5,15 @@ import './index.css';
 const Navbar = () => {
     return (
            <nav>
-               <ul>
+               <ul className="navbar-left">
                  <li><Link to="/Home"> Home </Link></li>
                    <li><Link to="/About"> AboutUs </Link></li>
                    <li><Link to="/Contact"> ContactUs </Link></li> 
-                   </ul>
+                   <li><Link to="/Services"> Services</Link></li>
+             </ul>
                    <ul className="navbar-right">
-                   <Link to ="/"> Login </Link>
-
+                 <li><Link to ="/Login"> Login </Link></li>  
+                  <li> <Link to ="/Signup"> SignUp </Link></li>
                </ul>     
            </nav>
        );
