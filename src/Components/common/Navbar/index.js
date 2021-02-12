@@ -5,8 +5,9 @@ const Navbar = () => {
     return (
            <nav>
                <ul>
-                   <li><Link to="/About"> AboutUs </Link></li>
-                   <li><Link to="/Contact"> ContactUs </Link></li>
+                   <li><Link to="/about"> AboutUs </Link></li>
+                   <li><Link to="/contact"> ContactUs </Link></li>
+                   <li><Link to="/profile"> Profile </Link></li>
                </ul>
                
            </nav>
