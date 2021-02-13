@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Btn from './Button/index';
+import Btn from './common/Button/index';
 class Contact extends Component {
   constructor(props) {
     super(props);
