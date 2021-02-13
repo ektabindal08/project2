@@ -8,7 +8,9 @@ ul {
   
   li {
     float: left;
+    border-right: 1px solid #bbb;
   }
+
   
   li a {
     display: block;
@@ -20,5 +22,30 @@ ul {
   
   li a:hover {
     background-color: #111;
+  }
+  ul.navbar-left{
+    width: 50%;
+    display: inline-block;
+  }
+
+  ul.navbar-right {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    float: right;
+    display: inline-block;
+    color: rgb(17, 11, 11);
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+  }
+  ul.navbar-right li{
+    float: right;
+  }
+  li.navbar-right
+  {
+    border-right: 1px solid #bbb;
   }
   
