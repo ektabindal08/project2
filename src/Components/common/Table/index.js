@@ -10,13 +10,13 @@ const Table = props => {
         <tr>
           {tableColumns.map(item => {
             keyNameArray.push(item.key);
-            return <th>{item.label}</th>;
+            return <th key={item.key}>{item.label}</th>;
           })}
         </tr>
       </thead>
       <tbody>
-        {tableRowData.map(item => {
-          return <tr>{keyNameArray.map(keyName => <td>{item[keyName]}</td>)}</tr>;
+        {tableRowData.map((item,index) => {
+          return <tr key={`table-row-${index}`}>{keyNameArray.map(keyName => <td key={item[keyName]}>{item[keyName]}</td>)}</tr>;
         })}
       </tbody>
     </table>
