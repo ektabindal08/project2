@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './assets/fonts/static/Karla-ExtraBoldItalic.ttf';
 import Routes from './Components/Routes';
 
 ReactDOM.render(
